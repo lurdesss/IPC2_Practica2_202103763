@@ -1,0 +1,130 @@
+@font-face {
+    font-family: BurbankSmall-Medium;
+    src: url('BurbankSmall-Medium.otf') format('truetype');
+}
+
+body {
+    font-family: BurbankSmall-Medium;
+    margin: 0;
+    padding: 0;
+}
+
+header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 4%;
+    margin-top: 10px;
+    padding: 15px;
+}
+
+.plano {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 7px 0px;
+    text-align: center;
+}
+
+
+#imagen {
+    text-align: center;
+    filter: grayscale(90%);
+}
+div #texto1{
+    font-size:1.5rem;
+}
+div #texto2{
+    color: gray;
+}
+#solo-top{
+    text-align: center;
+    width: 100%;
+}
+.seccion{
+    justify-content: center;
+    align-items: center;
+}
+
+.estudia{
+    font-size: 16px;
+    padding-top: 10px;
+    font-weight: bold;
+}
+.container {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+}
+a{
+    text-decoration: none;
+}
+
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.habilidades th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+}
+
+.educacion th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+}
+
+.idioma{
+    width: 20%;
+    text-align: left;
+}
+
+.container th{
+    background-color: #e0e0e0;
+}
+
+.listas {
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+}
+
+.lista-pasatiempos, .lista-intereses {
+    padding: 0;
+}
+
+.lista-pasatiempos, .lista-intereses {
+    padding: 10px;
+}
+
+
+/* media queries */
+@media (max-width: 768px) {
+    table {
+        border: 0; 
+    }
+
+    .educacion th, td {
+        display: block;
+    }
+
+    .educacion th {
+        background-color: #FFF0F5;
+    }
+}
+
+@media (max-width: 768px) {
+    table {
+        border: 0;
+    }
+
+    .habilidades th, td {
+        display: block;
+    }
+
+    .habilidades th {
+        background-color: #E0FFFF;
+    }
+}
+
